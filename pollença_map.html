@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0a22887376cda640996a831ee15f02af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0a22887376cda640996a831ee15f02af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0a22887376cda640996a831ee15f02af = L.map(
+                "map_0a22887376cda640996a831ee15f02af",
+                {
+                    center: [39.90581999999999, 3.0601599999999998],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9b12a538712c7566d6f33988c1ae7715 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0a22887376cda640996a831ee15f02af);
+        
+    
+            var marker_d61882594c87d1c15bf1d461e51b2586 = L.marker(
+                [39.8762, 3.0164],
+                {}
+            ).addTo(map_0a22887376cda640996a831ee15f02af);
+        
+    
+            var icon_0898e539bb284ec94701722806d89ca0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d61882594c87d1c15bf1d461e51b2586.setIcon(icon_0898e539bb284ec94701722806d89ca0);
+        
+    
+        var popup_27d64d823d2e5a3f868bbd38b96871e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a71f098586763725ddf612782c4351e0 = $(`<div id="html_a71f098586763725ddf612782c4351e0" style="width: 100.0%; height: 100.0%;">Stari grad Pollença</div>`)[0];
+            popup_27d64d823d2e5a3f868bbd38b96871e4.setContent(html_a71f098586763725ddf612782c4351e0);
+        
+
+        marker_d61882594c87d1c15bf1d461e51b2586.bindPopup(popup_27d64d823d2e5a3f868bbd38b96871e4)
+        ;
+
+        
+    
+    
+            var marker_e6730a898b2c93572605448c737c3648 = L.marker(
+                [39.8331, 2.8925],
+                {}
+            ).addTo(map_0a22887376cda640996a831ee15f02af);
+        
+    
+            var icon_cedefa5445afa42d7fe487ddf91da3fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6730a898b2c93572605448c737c3648.setIcon(icon_cedefa5445afa42d7fe487ddf91da3fb);
+        
+    
+        var popup_64038ef8bbdfb761e4e1e499bdcacb88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44975985fa564215c26a92bc9fe020bb = $(`<div id="html_44975985fa564215c26a92bc9fe020bb" style="width: 100.0%; height: 100.0%;">Monestir de Lluc</div>`)[0];
+            popup_64038ef8bbdfb761e4e1e499bdcacb88.setContent(html_44975985fa564215c26a92bc9fe020bb);
+        
+
+        marker_e6730a898b2c93572605448c737c3648.bindPopup(popup_64038ef8bbdfb761e4e1e499bdcacb88)
+        ;
+
+        
+    
+    
+            var marker_a88c82a3ba41a6a4e16103b644bf6efd = L.marker(
+                [39.9496, 3.1667],
+                {}
+            ).addTo(map_0a22887376cda640996a831ee15f02af);
+        
+    
+            var icon_e6d1f4a64837e5620dc604ecc6855129 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a88c82a3ba41a6a4e16103b644bf6efd.setIcon(icon_e6d1f4a64837e5620dc604ecc6855129);
+        
+    
+        var popup_b0d09f2e4e10fe6df927ac26e713710d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8591c325cbcfdd758674b97939818b92 = $(`<div id="html_8591c325cbcfdd758674b97939818b92" style="width: 100.0%; height: 100.0%;">Cap de Formentor</div>`)[0];
+            popup_b0d09f2e4e10fe6df927ac26e713710d.setContent(html_8591c325cbcfdd758674b97939818b92);
+        
+
+        marker_a88c82a3ba41a6a4e16103b644bf6efd.bindPopup(popup_b0d09f2e4e10fe6df927ac26e713710d)
+        ;
+
+        
+    
+    
+            var marker_834fd79707d6300f5b692b5d91e8a14a = L.marker(
+                [39.9194, 3.0489],
+                {}
+            ).addTo(map_0a22887376cda640996a831ee15f02af);
+        
+    
+            var icon_9dd955ff54d436c64cbbe6632a4ca4b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_834fd79707d6300f5b692b5d91e8a14a.setIcon(icon_9dd955ff54d436c64cbbe6632a4ca4b8);
+        
+    
+        var popup_40ffb0e72e30ef0dc8f9c4ee005a09c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcca7c7c7cadbef7c2f5bbb82898d500 = $(`<div id="html_dcca7c7c7cadbef7c2f5bbb82898d500" style="width: 100.0%; height: 100.0%;">Cala Sant Vicenç</div>`)[0];
+            popup_40ffb0e72e30ef0dc8f9c4ee005a09c0.setContent(html_dcca7c7c7cadbef7c2f5bbb82898d500);
+        
+
+        marker_834fd79707d6300f5b692b5d91e8a14a.bindPopup(popup_40ffb0e72e30ef0dc8f9c4ee005a09c0)
+        ;
+
+        
+    
+    
+            var marker_6fca95fb3c30907652533ea317aa6a32 = L.marker(
+                [39.9508, 3.1763],
+                {}
+            ).addTo(map_0a22887376cda640996a831ee15f02af);
+        
+    
+            var icon_9ac6f3a26fdf51c329e0803146f10393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6fca95fb3c30907652533ea317aa6a32.setIcon(icon_9ac6f3a26fdf51c329e0803146f10393);
+        
+    
+        var popup_769cac731e4c33a2bd38a5134788a1ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53b3199b20ad0f465fff7879b8e8f399 = $(`<div id="html_53b3199b20ad0f465fff7879b8e8f399" style="width: 100.0%; height: 100.0%;">Cala Murta</div>`)[0];
+            popup_769cac731e4c33a2bd38a5134788a1ae.setContent(html_53b3199b20ad0f465fff7879b8e8f399);
+        
+
+        marker_6fca95fb3c30907652533ea317aa6a32.bindPopup(popup_769cac731e4c33a2bd38a5134788a1ae)
+        ;
+
+        
+    
+</script>
+</html>

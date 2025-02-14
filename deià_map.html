@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eed7e2511a369d01181800de348bf4af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eed7e2511a369d01181800de348bf4af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eed7e2511a369d01181800de348bf4af = L.map(
+                "map_eed7e2511a369d01181800de348bf4af",
+                {
+                    center: [39.74875, 2.64445],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aacd152f5bb29594e6db10ad554990f2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_eed7e2511a369d01181800de348bf4af);
+        
+    
+            var marker_cdb997a478c2eff57aef39a7b57a7019 = L.marker(
+                [39.7472, 2.6447],
+                {}
+            ).addTo(map_eed7e2511a369d01181800de348bf4af);
+        
+    
+            var icon_588e72d65c09d6198b91726740f11f3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cdb997a478c2eff57aef39a7b57a7019.setIcon(icon_588e72d65c09d6198b91726740f11f3c);
+        
+    
+        var popup_9c7ef3469e8a1c91c08a1e01de02c004 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4068aea21b622f16150a5cc7a5c96d7e = $(`<div id="html_4068aea21b622f16150a5cc7a5c96d7e" style="width: 100.0%; height: 100.0%;">Selo Deià</div>`)[0];
+            popup_9c7ef3469e8a1c91c08a1e01de02c004.setContent(html_4068aea21b622f16150a5cc7a5c96d7e);
+        
+
+        marker_cdb997a478c2eff57aef39a7b57a7019.bindPopup(popup_9c7ef3469e8a1c91c08a1e01de02c004)
+        ;
+
+        
+    
+    
+            var marker_a2e43a96b38da4e4fb61e3e5bc489d7e = L.marker(
+                [39.7503, 2.6442],
+                {}
+            ).addTo(map_eed7e2511a369d01181800de348bf4af);
+        
+    
+            var icon_760a8119490318c269b19318bdfe9ca3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a2e43a96b38da4e4fb61e3e5bc489d7e.setIcon(icon_760a8119490318c269b19318bdfe9ca3);
+        
+    
+        var popup_a011869bd722c7f9bcbcd98951b12190 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e6ec25a81a568fc546c1d79fff3699c = $(`<div id="html_9e6ec25a81a568fc546c1d79fff3699c" style="width: 100.0%; height: 100.0%;">Cala Deià</div>`)[0];
+            popup_a011869bd722c7f9bcbcd98951b12190.setContent(html_9e6ec25a81a568fc546c1d79fff3699c);
+        
+
+        marker_a2e43a96b38da4e4fb61e3e5bc489d7e.bindPopup(popup_a011869bd722c7f9bcbcd98951b12190)
+        ;
+
+        
+    
+</script>
+</html>

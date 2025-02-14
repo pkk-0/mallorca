@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cfc6cc15ece2e565af4d7ba0d300a350 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cfc6cc15ece2e565af4d7ba0d300a350" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cfc6cc15ece2e565af4d7ba0d300a350 = L.map(
+                "map_cfc6cc15ece2e565af4d7ba0d300a350",
+                {
+                    center: [39.735749999999996, 3.4549],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_534b999609b78576ce3f97ae69da340f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cfc6cc15ece2e565af4d7ba0d300a350);
+        
+    
+            var marker_c5fd9bf8186d2ec0bb5310117c69af7a = L.marker(
+                [39.7226, 3.4612],
+                {}
+            ).addTo(map_cfc6cc15ece2e565af4d7ba0d300a350);
+        
+    
+            var icon_f28ef1f7701fd314892f03d2aeecab09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c5fd9bf8186d2ec0bb5310117c69af7a.setIcon(icon_f28ef1f7701fd314892f03d2aeecab09);
+        
+    
+        var popup_c21d2fdfa25ebe0e33d1fdc054c4c6fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_862eec5f2c866fd4c11d13d9fb1155ec = $(`<div id="html_862eec5f2c866fd4c11d13d9fb1155ec" style="width: 100.0%; height: 100.0%;">Cala Agulla</div>`)[0];
+            popup_c21d2fdfa25ebe0e33d1fdc054c4c6fe.setContent(html_862eec5f2c866fd4c11d13d9fb1155ec);
+        
+
+        marker_c5fd9bf8186d2ec0bb5310117c69af7a.bindPopup(popup_c21d2fdfa25ebe0e33d1fdc054c4c6fe)
+        ;
+
+        
+    
+    
+            var marker_ae7c7d88100ec83329de932a23c3e788 = L.marker(
+                [39.7489, 3.4486],
+                {}
+            ).addTo(map_cfc6cc15ece2e565af4d7ba0d300a350);
+        
+    
+            var icon_333bd382697ba39c9697def311302dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ae7c7d88100ec83329de932a23c3e788.setIcon(icon_333bd382697ba39c9697def311302dab);
+        
+    
+        var popup_3b8e54fa04028d2696d497fd731d18c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abd5c690b3e08e07e8488efd4101e8b4 = $(`<div id="html_abd5c690b3e08e07e8488efd4101e8b4" style="width: 100.0%; height: 100.0%;">Cala Mesquida</div>`)[0];
+            popup_3b8e54fa04028d2696d497fd731d18c9.setContent(html_abd5c690b3e08e07e8488efd4101e8b4);
+        
+
+        marker_ae7c7d88100ec83329de932a23c3e788.bindPopup(popup_3b8e54fa04028d2696d497fd731d18c9)
+        ;
+
+        
+    
+</script>
+</html>

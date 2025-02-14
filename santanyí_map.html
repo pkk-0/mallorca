@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ee00b7790c4b69f2224cc6ca40c04bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7ee00b7790c4b69f2224cc6ca40c04bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7ee00b7790c4b69f2224cc6ca40c04bb = L.map(
+                "map_7ee00b7790c4b69f2224cc6ca40c04bb",
+                {
+                    center: [39.34230000000001, 3.1679],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_84188f8851434b360fd8cd760075c54d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7ee00b7790c4b69f2224cc6ca40c04bb);
+        
+    
+            var marker_85b7a4f093f526583b7385b583ef0ded = L.marker(
+                [39.3515, 3.1265],
+                {}
+            ).addTo(map_7ee00b7790c4b69f2224cc6ca40c04bb);
+        
+    
+            var icon_0a5225a3b14fec0eb89118ab73c3919d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85b7a4f093f526583b7385b583ef0ded.setIcon(icon_0a5225a3b14fec0eb89118ab73c3919d);
+        
+    
+        var popup_cb6b8b7a21459b2061502fb2ff442c58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23ac99bd30463476a2df104976bbdc8d = $(`<div id="html_23ac99bd30463476a2df104976bbdc8d" style="width: 100.0%; height: 100.0%;">Stari grad Santanyí</div>`)[0];
+            popup_cb6b8b7a21459b2061502fb2ff442c58.setContent(html_23ac99bd30463476a2df104976bbdc8d);
+        
+
+        marker_85b7a4f093f526583b7385b583ef0ded.bindPopup(popup_cb6b8b7a21459b2061502fb2ff442c58)
+        ;
+
+        
+    
+    
+            var marker_055d58baed2bdd513f9ab34390329bf0 = L.marker(
+                [39.3083, 3.1375],
+                {}
+            ).addTo(map_7ee00b7790c4b69f2224cc6ca40c04bb);
+        
+    
+            var icon_860058185f7c90734d1a1ebd30c86f80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_055d58baed2bdd513f9ab34390329bf0.setIcon(icon_860058185f7c90734d1a1ebd30c86f80);
+        
+    
+        var popup_c7f286bab9c622dfd79d4415afc53399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e01cfd3d1e142b20a4eccda11dc4d65c = $(`<div id="html_e01cfd3d1e142b20a4eccda11dc4d65c" style="width: 100.0%; height: 100.0%;">Caló des Moro</div>`)[0];
+            popup_c7f286bab9c622dfd79d4415afc53399.setContent(html_e01cfd3d1e142b20a4eccda11dc4d65c);
+        
+
+        marker_055d58baed2bdd513f9ab34390329bf0.bindPopup(popup_c7f286bab9c622dfd79d4415afc53399)
+        ;
+
+        
+    
+    
+            var marker_267e1adba2307572fc0047ebd773f306 = L.marker(
+                [39.3083, 3.1294],
+                {}
+            ).addTo(map_7ee00b7790c4b69f2224cc6ca40c04bb);
+        
+    
+            var icon_c251b0e674b9150e2fff83b6c472a0f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_267e1adba2307572fc0047ebd773f306.setIcon(icon_c251b0e674b9150e2fff83b6c472a0f1);
+        
+    
+        var popup_8ff2446b89d2efbd749c3352c9fe05fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b6c3f0a575e12f9bd67b0ca0b994fc5 = $(`<div id="html_5b6c3f0a575e12f9bd67b0ca0b994fc5" style="width: 100.0%; height: 100.0%;">Cala Llombards</div>`)[0];
+            popup_8ff2446b89d2efbd749c3352c9fe05fa.setContent(html_5b6c3f0a575e12f9bd67b0ca0b994fc5);
+        
+
+        marker_267e1adba2307572fc0047ebd773f306.bindPopup(popup_8ff2446b89d2efbd749c3352c9fe05fa)
+        ;
+
+        
+    
+    
+            var marker_c2c6dd6d183ac9234d2ec0a30bcf26e9 = L.marker(
+                [39.345, 3.1808],
+                {}
+            ).addTo(map_7ee00b7790c4b69f2224cc6ca40c04bb);
+        
+    
+            var icon_c69aa65f4694dabafcd8faa6c6f6f95b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c2c6dd6d183ac9234d2ec0a30bcf26e9.setIcon(icon_c69aa65f4694dabafcd8faa6c6f6f95b);
+        
+    
+        var popup_f1f15c2eb297aae3de023f9849b59fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9332a07e36ce3d6e9f4540934a160ba7 = $(`<div id="html_9332a07e36ce3d6e9f4540934a160ba7" style="width: 100.0%; height: 100.0%;">Cala Mondragó</div>`)[0];
+            popup_f1f15c2eb297aae3de023f9849b59fb3.setContent(html_9332a07e36ce3d6e9f4540934a160ba7);
+        
+
+        marker_c2c6dd6d183ac9234d2ec0a30bcf26e9.bindPopup(popup_f1f15c2eb297aae3de023f9849b59fb3)
+        ;
+
+        
+    
+    
+            var marker_f1b3f335acfb436f7f40e07f9ce56eda = L.marker(
+                [39.3984, 3.2653],
+                {}
+            ).addTo(map_7ee00b7790c4b69f2224cc6ca40c04bb);
+        
+    
+            var icon_8ba0ccfb7335a1a3533b32f8d3038f9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f1b3f335acfb436f7f40e07f9ce56eda.setIcon(icon_8ba0ccfb7335a1a3533b32f8d3038f9c);
+        
+    
+        var popup_ca86e9dfd86dc90e344f31fc3c42c6e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eb7a38fa510dcbbd42332d5a7cf6cc0 = $(`<div id="html_1eb7a38fa510dcbbd42332d5a7cf6cc0" style="width: 100.0%; height: 100.0%;">Cala Sa Nau</div>`)[0];
+            popup_ca86e9dfd86dc90e344f31fc3c42c6e9.setContent(html_1eb7a38fa510dcbbd42332d5a7cf6cc0);
+        
+
+        marker_f1b3f335acfb436f7f40e07f9ce56eda.bindPopup(popup_ca86e9dfd86dc90e344f31fc3c42c6e9)
+        ;
+
+        
+    
+</script>
+</html>

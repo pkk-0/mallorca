@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dac599d655deefd2d470ab696650844e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_dac599d655deefd2d470ab696650844e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_dac599d655deefd2d470ab696650844e = L.map(
+                "map_dac599d655deefd2d470ab696650844e",
+                {
+                    center: [39.6953, 3.0176],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1ca4dc0afff4194210e251657cbc1a67 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var marker_091a94e976bc68272f0664a257b9837a = L.marker(
+                [39.5676, 2.6502],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_a5645b0cd423f14d0c9821f75126ccf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_091a94e976bc68272f0664a257b9837a.setIcon(icon_a5645b0cd423f14d0c9821f75126ccf7);
+        
+    
+        var popup_61bd561433fa45d60b0f368ae109f294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2317e3c3aba32b6c6f975727074042fd = $(`<div id="html_2317e3c3aba32b6c6f975727074042fd" style="width: 100.0%; height: 100.0%;">Katedrala La Seu</div>`)[0];
+            popup_61bd561433fa45d60b0f368ae109f294.setContent(html_2317e3c3aba32b6c6f975727074042fd);
+        
+
+        marker_091a94e976bc68272f0664a257b9837a.bindPopup(popup_61bd561433fa45d60b0f368ae109f294)
+        ;
+
+        
+    
+    
+            var marker_9c2de77e55afddb6ecda739ffb7ff189 = L.marker(
+                [39.5684, 2.65],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_09df905e3f42c4a359e2974e93e87973 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9c2de77e55afddb6ecda739ffb7ff189.setIcon(icon_09df905e3f42c4a359e2974e93e87973);
+        
+    
+        var popup_5dff3bb7b954420acb7eba8abdfa2e49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8a227bbbd96c8365e0fb8e1f4bfa6a7 = $(`<div id="html_d8a227bbbd96c8365e0fb8e1f4bfa6a7" style="width: 100.0%; height: 100.0%;">Palau de l'Almudaina</div>`)[0];
+            popup_5dff3bb7b954420acb7eba8abdfa2e49.setContent(html_d8a227bbbd96c8365e0fb8e1f4bfa6a7);
+        
+
+        marker_9c2de77e55afddb6ecda739ffb7ff189.bindPopup(popup_5dff3bb7b954420acb7eba8abdfa2e49)
+        ;
+
+        
+    
+    
+            var marker_016962c6a0255705499aaa561c34e25f = L.marker(
+                [39.5665, 2.6175],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_db761ff1ee43b202ed011918313b2887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_016962c6a0255705499aaa561c34e25f.setIcon(icon_db761ff1ee43b202ed011918313b2887);
+        
+    
+        var popup_27c0f53f7c4c45df153743ddbea1dbf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_927bfc49272c89032e00fb87460508c3 = $(`<div id="html_927bfc49272c89032e00fb87460508c3" style="width: 100.0%; height: 100.0%;">Castell de Bellver</div>`)[0];
+            popup_27c0f53f7c4c45df153743ddbea1dbf1.setContent(html_927bfc49272c89032e00fb87460508c3);
+        
+
+        marker_016962c6a0255705499aaa561c34e25f.bindPopup(popup_27c0f53f7c4c45df153743ddbea1dbf1)
+        ;
+
+        
+    
+    
+            var marker_35e6f0bd8b7535ad7834eec4e45ba80c = L.marker(
+                [39.5734, 2.6402],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_aa13cbdf69fe0526ca8005ff9d0efd5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_35e6f0bd8b7535ad7834eec4e45ba80c.setIcon(icon_aa13cbdf69fe0526ca8005ff9d0efd5d);
+        
+    
+        var popup_af9e3e7ca448ff6222867614cfe1b4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_371af68230d4642218de4d569a65f8df = $(`<div id="html_371af68230d4642218de4d569a65f8df" style="width: 100.0%; height: 100.0%;">Santa Catalina kvart</div>`)[0];
+            popup_af9e3e7ca448ff6222867614cfe1b4f1.setContent(html_371af68230d4642218de4d569a65f8df);
+        
+
+        marker_35e6f0bd8b7535ad7834eec4e45ba80c.bindPopup(popup_af9e3e7ca448ff6222867614cfe1b4f1)
+        ;
+
+        
+    
+    
+            var marker_b2df6fd2feb33c3bd4c4db63ce47c991 = L.marker(
+                [39.5706, 2.6482],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_de3673d1844e24c870dc0fad781ba78e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b2df6fd2feb33c3bd4c4db63ce47c991.setIcon(icon_de3673d1844e24c870dc0fad781ba78e);
+        
+    
+        var popup_9653f65f00d6e1d8596cf6647698e0ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31939fabc12f3a217273ed2e7a51f107 = $(`<div id="html_31939fabc12f3a217273ed2e7a51f107" style="width: 100.0%; height: 100.0%;">Passeig des Born</div>`)[0];
+            popup_9653f65f00d6e1d8596cf6647698e0ae.setContent(html_31939fabc12f3a217273ed2e7a51f107);
+        
+
+        marker_b2df6fd2feb33c3bd4c4db63ce47c991.bindPopup(popup_9653f65f00d6e1d8596cf6647698e0ae)
+        ;
+
+        
+    
+    
+            var marker_70469828126464df3d4e1d02f9d39e3a = L.marker(
+                [39.5744, 2.6538],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_bff53bb847a916cc38134a25f98d8ce2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_70469828126464df3d4e1d02f9d39e3a.setIcon(icon_bff53bb847a916cc38134a25f98d8ce2);
+        
+    
+        var popup_59dd578a30527bdddb3078ac6bea0725 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_199cd045c187b348e39aac8a7701bb0f = $(`<div id="html_199cd045c187b348e39aac8a7701bb0f" style="width: 100.0%; height: 100.0%;">Mercat de l'Olivar</div>`)[0];
+            popup_59dd578a30527bdddb3078ac6bea0725.setContent(html_199cd045c187b348e39aac8a7701bb0f);
+        
+
+        marker_70469828126464df3d4e1d02f9d39e3a.bindPopup(popup_59dd578a30527bdddb3078ac6bea0725)
+        ;
+
+        
+    
+    
+            var marker_e160ad9f231d53b7b1bfa1fe96772d7f = L.marker(
+                [39.5695, 2.6536],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_80fa658943efb2e360dbbbd7ea2cfdaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e160ad9f231d53b7b1bfa1fe96772d7f.setIcon(icon_80fa658943efb2e360dbbbd7ea2cfdaf);
+        
+    
+        var popup_e0424e522e80c34ecacac35708098da8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dcf4e03615f36a0b383f9acb4407940 = $(`<div id="html_3dcf4e03615f36a0b383f9acb4407940" style="width: 100.0%; height: 100.0%;">Banys Àrabs</div>`)[0];
+            popup_e0424e522e80c34ecacac35708098da8.setContent(html_3dcf4e03615f36a0b383f9acb4407940);
+        
+
+        marker_e160ad9f231d53b7b1bfa1fe96772d7f.bindPopup(popup_e0424e522e80c34ecacac35708098da8)
+        ;
+
+        
+    
+    
+            var marker_2225afc807633b54105dfbe45825d994 = L.marker(
+                [39.5517, 2.5898],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_1aa42eca3073bcda89269b664c204a7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2225afc807633b54105dfbe45825d994.setIcon(icon_1aa42eca3073bcda89269b664c204a7f);
+        
+    
+        var popup_045f18a0cbc50eb24c26ffc6653299d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6cced8a3822ff48b1f37d39c0989f58 = $(`<div id="html_d6cced8a3822ff48b1f37d39c0989f58" style="width: 100.0%; height: 100.0%;">Fundació Miró Mallorca</div>`)[0];
+            popup_045f18a0cbc50eb24c26ffc6653299d5.setContent(html_d6cced8a3822ff48b1f37d39c0989f58);
+        
+
+        marker_2225afc807633b54105dfbe45825d994.bindPopup(popup_045f18a0cbc50eb24c26ffc6653299d5)
+        ;
+
+        
+    
+    
+            var marker_633a10fae89fe547dd93172de6f8593f = L.marker(
+                [39.5701, 2.6408],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_882d6890dea3eef32a8aa55b57164985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_633a10fae89fe547dd93172de6f8593f.setIcon(icon_882d6890dea3eef32a8aa55b57164985);
+        
+    
+        var popup_cefa7002dc6862a30bb8e968f3ee83bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9105cdcd1b35939fce9e21d373871b71 = $(`<div id="html_9105cdcd1b35939fce9e21d373871b71" style="width: 100.0%; height: 100.0%;">Es Baluard Museum</div>`)[0];
+            popup_cefa7002dc6862a30bb8e968f3ee83bf.setContent(html_9105cdcd1b35939fce9e21d373871b71);
+        
+
+        marker_633a10fae89fe547dd93172de6f8593f.bindPopup(popup_cefa7002dc6862a30bb8e968f3ee83bf)
+        ;
+
+        
+    
+    
+            var marker_be3b23ac237be6f5777898624a1083d7 = L.marker(
+                [39.566, 2.6315],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_7e6c5a80ccace3e09cd221ef2a1516ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be3b23ac237be6f5777898624a1083d7.setIcon(icon_7e6c5a80ccace3e09cd221ef2a1516ed);
+        
+    
+        var popup_63500b977b5010ac909e7cff27fefad8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_392d7ebca46c6f388e11031adbe36011 = $(`<div id="html_392d7ebca46c6f388e11031adbe36011" style="width: 100.0%; height: 100.0%;">Pueblo Español</div>`)[0];
+            popup_63500b977b5010ac909e7cff27fefad8.setContent(html_392d7ebca46c6f388e11031adbe36011);
+        
+
+        marker_be3b23ac237be6f5777898624a1083d7.bindPopup(popup_63500b977b5010ac909e7cff27fefad8)
+        ;
+
+        
+    
+    
+            var marker_bd8272ca9aafba87fabd96f12b75b5b8 = L.marker(
+                [39.5692, 2.6458],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_61c220ef0a9657908fbe00001b9da6f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bd8272ca9aafba87fabd96f12b75b5b8.setIcon(icon_61c220ef0a9657908fbe00001b9da6f0);
+        
+    
+        var popup_d65c0692dc7b0a327617ae0232b20ac5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c13a933474e6393a63baa718bc31d0b = $(`<div id="html_1c13a933474e6393a63baa718bc31d0b" style="width: 100.0%; height: 100.0%;">Llotja de Palma</div>`)[0];
+            popup_d65c0692dc7b0a327617ae0232b20ac5.setContent(html_1c13a933474e6393a63baa718bc31d0b);
+        
+
+        marker_bd8272ca9aafba87fabd96f12b75b5b8.bindPopup(popup_d65c0692dc7b0a327617ae0232b20ac5)
+        ;
+
+        
+    
+    
+            var marker_0bd068cb962b81aa2fbd339b1e85c940 = L.marker(
+                [39.574, 2.6557],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_39501fbdf6e4ed2d1acfd51102a05e8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0bd068cb962b81aa2fbd339b1e85c940.setIcon(icon_39501fbdf6e4ed2d1acfd51102a05e8b);
+        
+    
+        var popup_c688093fdd75be5afa9a0a02a813dc6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd980eacf56ab1dbf74b67bd58fbcc6b = $(`<div id="html_fd980eacf56ab1dbf74b67bd58fbcc6b" style="width: 100.0%; height: 100.0%;">Plaza Mayor de Palma</div>`)[0];
+            popup_c688093fdd75be5afa9a0a02a813dc6d.setContent(html_fd980eacf56ab1dbf74b67bd58fbcc6b);
+        
+
+        marker_0bd068cb962b81aa2fbd339b1e85c940.bindPopup(popup_c688093fdd75be5afa9a0a02a813dc6d)
+        ;
+
+        
+    
+    
+            var marker_440eaa02aeb42d36d3889d1db654f648 = L.marker(
+                [39.527, 2.7382],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_78c7e53662ddb6940329e070b5be2c52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_440eaa02aeb42d36d3889d1db654f648.setIcon(icon_78c7e53662ddb6940329e070b5be2c52);
+        
+    
+        var popup_9172b0989194f6a69869ed63aea0b9b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_983c2f2b92d578e1cc4d083cb9c81b69 = $(`<div id="html_983c2f2b92d578e1cc4d083cb9c81b69" style="width: 100.0%; height: 100.0%;">Playa de Palma</div>`)[0];
+            popup_9172b0989194f6a69869ed63aea0b9b9.setContent(html_983c2f2b92d578e1cc4d083cb9c81b69);
+        
+
+        marker_440eaa02aeb42d36d3889d1db654f648.bindPopup(popup_9172b0989194f6a69869ed63aea0b9b9)
+        ;
+
+        
+    
+    
+            var marker_90f0121ce56fc3568e2bb5f379895b46 = L.marker(
+                [39.5372, 2.7155],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_6d8001c129bae1b18f21c3558e4376f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_90f0121ce56fc3568e2bb5f379895b46.setIcon(icon_6d8001c129bae1b18f21c3558e4376f0);
+        
+    
+        var popup_52b7bd1ee86f84f9ce4b5184320e62a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_907d78fd812f365a26cba15d7aef13ad = $(`<div id="html_907d78fd812f365a26cba15d7aef13ad" style="width: 100.0%; height: 100.0%;">Can Pastilla</div>`)[0];
+            popup_52b7bd1ee86f84f9ce4b5184320e62a4.setContent(html_907d78fd812f365a26cba15d7aef13ad);
+        
+
+        marker_90f0121ce56fc3568e2bb5f379895b46.bindPopup(popup_52b7bd1ee86f84f9ce4b5184320e62a4)
+        ;
+
+        
+    
+    
+            var marker_6ff37a690d2713e47fcaf62f33942039 = L.marker(
+                [39.5514, 2.6067],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_f1e3854c2d4eb62354f7ffadf5feba60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6ff37a690d2713e47fcaf62f33942039.setIcon(icon_f1e3854c2d4eb62354f7ffadf5feba60);
+        
+    
+        var popup_26aee0642b91ab70a980e924d03a3ecd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edb6f5cda2810228a1729b6e3160d8db = $(`<div id="html_edb6f5cda2810228a1729b6e3160d8db" style="width: 100.0%; height: 100.0%;">Cala Major</div>`)[0];
+            popup_26aee0642b91ab70a980e924d03a3ecd.setContent(html_edb6f5cda2810228a1729b6e3160d8db);
+        
+
+        marker_6ff37a690d2713e47fcaf62f33942039.bindPopup(popup_26aee0642b91ab70a980e924d03a3ecd)
+        ;
+
+        
+    
+    
+            var marker_2a97e42bf3ff9467786a1126efbf8357 = L.marker(
+                [39.5573, 2.6763],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_3116efb3790ee5093b3941129cf0c5dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2a97e42bf3ff9467786a1126efbf8357.setIcon(icon_3116efb3790ee5093b3941129cf0c5dc);
+        
+    
+        var popup_f61a6ccaaec773de7fb843eb11e84b53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_859e534d583b6092b4c8b0d31d34b717 = $(`<div id="html_859e534d583b6092b4c8b0d31d34b717" style="width: 100.0%; height: 100.0%;">Ciudad Jardín</div>`)[0];
+            popup_f61a6ccaaec773de7fb843eb11e84b53.setContent(html_859e534d583b6092b4c8b0d31d34b717);
+        
+
+        marker_2a97e42bf3ff9467786a1126efbf8357.bindPopup(popup_f61a6ccaaec773de7fb843eb11e84b53)
+        ;
+
+        
+    
+    
+            var marker_bc1eec8e766bb862a2d42d01a585ff06 = L.marker(
+                [39.5311, 2.5814],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_ae84af98c5eed88f6e07358174f08be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bc1eec8e766bb862a2d42d01a585ff06.setIcon(icon_ae84af98c5eed88f6e07358174f08be3);
+        
+    
+        var popup_22510f64378ce5e57eee7844ec051b97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_971b4b00b4448f29322e43e000c22f16 = $(`<div id="html_971b4b00b4448f29322e43e000c22f16" style="width: 100.0%; height: 100.0%;">Illetes</div>`)[0];
+            popup_22510f64378ce5e57eee7844ec051b97.setContent(html_971b4b00b4448f29322e43e000c22f16);
+        
+
+        marker_bc1eec8e766bb862a2d42d01a585ff06.bindPopup(popup_22510f64378ce5e57eee7844ec051b97)
+        ;
+
+        
+    
+    
+            var marker_69d28c8e0897886f2570b6fed33bac6e = L.marker(
+                [39.5315, 2.5736],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_98536e7be25cc66e4b6b7a934c1ef5db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_69d28c8e0897886f2570b6fed33bac6e.setIcon(icon_98536e7be25cc66e4b6b7a934c1ef5db);
+        
+    
+        var popup_a662abb27512e69e8680252d483037ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49e13350fbe68446a7a716ef3b78fc50 = $(`<div id="html_49e13350fbe68446a7a716ef3b78fc50" style="width: 100.0%; height: 100.0%;">Portals Nous</div>`)[0];
+            popup_a662abb27512e69e8680252d483037ac.setContent(html_49e13350fbe68446a7a716ef3b78fc50);
+        
+
+        marker_69d28c8e0897886f2570b6fed33bac6e.bindPopup(popup_a662abb27512e69e8680252d483037ac)
+        ;
+
+        
+    
+    
+            var marker_38e6ac8b0ecde186de6ee19486ba35e9 = L.marker(
+                [39.7094, 2.6228],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_9736352701884ffa2d9bd949a8188116 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38e6ac8b0ecde186de6ee19486ba35e9.setIcon(icon_9736352701884ffa2d9bd949a8188116);
+        
+    
+        var popup_4fe072bc108b4fb5e7e6028597457858 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_172a0262eb55b7c9f82350832ea82508 = $(`<div id="html_172a0262eb55b7c9f82350832ea82508" style="width: 100.0%; height: 100.0%;">Kartuzijanski samostan</div>`)[0];
+            popup_4fe072bc108b4fb5e7e6028597457858.setContent(html_172a0262eb55b7c9f82350832ea82508);
+        
+
+        marker_38e6ac8b0ecde186de6ee19486ba35e9.bindPopup(popup_4fe072bc108b4fb5e7e6028597457858)
+        ;
+
+        
+    
+    
+            var marker_a6da4c5d78ae4c878109108b3c6546de = L.marker(
+                [39.7472, 2.6447],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_75b770f8a6c3016ab66f3b1370065fa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6da4c5d78ae4c878109108b3c6546de.setIcon(icon_75b770f8a6c3016ab66f3b1370065fa8);
+        
+    
+        var popup_fa29bc8a8e367b3ec08d3d75bbb7be0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ad5179a3f7e69b32b0e42ca4f0171a6 = $(`<div id="html_8ad5179a3f7e69b32b0e42ca4f0171a6" style="width: 100.0%; height: 100.0%;">Selo Deià</div>`)[0];
+            popup_fa29bc8a8e367b3ec08d3d75bbb7be0b.setContent(html_8ad5179a3f7e69b32b0e42ca4f0171a6);
+        
+
+        marker_a6da4c5d78ae4c878109108b3c6546de.bindPopup(popup_fa29bc8a8e367b3ec08d3d75bbb7be0b)
+        ;
+
+        
+    
+    
+            var marker_c66d9a7409ea0250e9c49ac6ac2cf6fa = L.marker(
+                [39.7503, 2.6442],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_941c9d27cecb843ba5037c5d19a076f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c66d9a7409ea0250e9c49ac6ac2cf6fa.setIcon(icon_941c9d27cecb843ba5037c5d19a076f7);
+        
+    
+        var popup_66bcc9db9af1e764330ddb4189b6ce2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7388eaa8191a467bc610d4199f22ba49 = $(`<div id="html_7388eaa8191a467bc610d4199f22ba49" style="width: 100.0%; height: 100.0%;">Cala Deià</div>`)[0];
+            popup_66bcc9db9af1e764330ddb4189b6ce2f.setContent(html_7388eaa8191a467bc610d4199f22ba49);
+        
+
+        marker_c66d9a7409ea0250e9c49ac6ac2cf6fa.bindPopup(popup_66bcc9db9af1e764330ddb4189b6ce2f)
+        ;
+
+        
+    
+    
+            var marker_c25475ce4cedc13faac5e41ef81f6da6 = L.marker(
+                [39.7666, 2.7159],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_dd7e5b286de78a3b5eeb88a933a7ff12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c25475ce4cedc13faac5e41ef81f6da6.setIcon(icon_dd7e5b286de78a3b5eeb88a933a7ff12);
+        
+    
+        var popup_27865031a5ddcafb92d8ad89ea8d0f10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e002d319946bbae768d57ed83aca4bc4 = $(`<div id="html_e002d319946bbae768d57ed83aca4bc4" style="width: 100.0%; height: 100.0%;">Grad Sóller</div>`)[0];
+            popup_27865031a5ddcafb92d8ad89ea8d0f10.setContent(html_e002d319946bbae768d57ed83aca4bc4);
+        
+
+        marker_c25475ce4cedc13faac5e41ef81f6da6.bindPopup(popup_27865031a5ddcafb92d8ad89ea8d0f10)
+        ;
+
+        
+    
+    
+            var marker_38a2b90e9278b965273bb2fd28dbcd71 = L.marker(
+                [39.7965, 2.6953],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_218def406db392a86a02be37aadb61a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_38a2b90e9278b965273bb2fd28dbcd71.setIcon(icon_218def406db392a86a02be37aadb61a4);
+        
+    
+        var popup_c11216e82a156e6ddb4f1a8e8736728f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_496dcce607648cd521d7992729890da0 = $(`<div id="html_496dcce607648cd521d7992729890da0" style="width: 100.0%; height: 100.0%;">Port de Sóller</div>`)[0];
+            popup_c11216e82a156e6ddb4f1a8e8736728f.setContent(html_496dcce607648cd521d7992729890da0);
+        
+
+        marker_38a2b90e9278b965273bb2fd28dbcd71.bindPopup(popup_c11216e82a156e6ddb4f1a8e8736728f)
+        ;
+
+        
+    
+    
+            var marker_e288828fdf1be90094a7e6ffdbf9dada = L.marker(
+                [39.8762, 3.0164],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_58606c07b3a5f6302f4f486409e019c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e288828fdf1be90094a7e6ffdbf9dada.setIcon(icon_58606c07b3a5f6302f4f486409e019c1);
+        
+    
+        var popup_1a0c0a0e9539e4e9ded75a5805cd532d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfe4d1dd4c79d56e6c693523ad3bd5bb = $(`<div id="html_cfe4d1dd4c79d56e6c693523ad3bd5bb" style="width: 100.0%; height: 100.0%;">Stari grad Pollença</div>`)[0];
+            popup_1a0c0a0e9539e4e9ded75a5805cd532d.setContent(html_cfe4d1dd4c79d56e6c693523ad3bd5bb);
+        
+
+        marker_e288828fdf1be90094a7e6ffdbf9dada.bindPopup(popup_1a0c0a0e9539e4e9ded75a5805cd532d)
+        ;
+
+        
+    
+    
+            var marker_abb9730aaa0a5043298112dceae7c7c0 = L.marker(
+                [39.8331, 2.8925],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_57668d598baeb569fe152a469c4be813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_abb9730aaa0a5043298112dceae7c7c0.setIcon(icon_57668d598baeb569fe152a469c4be813);
+        
+    
+        var popup_0cb960d8e4436e56a19e102306d76847 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dd0e4495e9fa80f949851edd2c35b69 = $(`<div id="html_9dd0e4495e9fa80f949851edd2c35b69" style="width: 100.0%; height: 100.0%;">Monestir de Lluc</div>`)[0];
+            popup_0cb960d8e4436e56a19e102306d76847.setContent(html_9dd0e4495e9fa80f949851edd2c35b69);
+        
+
+        marker_abb9730aaa0a5043298112dceae7c7c0.bindPopup(popup_0cb960d8e4436e56a19e102306d76847)
+        ;
+
+        
+    
+    
+            var marker_e92d5462e6d944335441fae0e63f3ff3 = L.marker(
+                [39.9496, 3.1667],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_bebb4f882288ee43dc17cb535ddded19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e92d5462e6d944335441fae0e63f3ff3.setIcon(icon_bebb4f882288ee43dc17cb535ddded19);
+        
+    
+        var popup_d09aef787523f6026d6f06da84d1cf2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7bdb527a724d097e44a2b0a4c5d5585 = $(`<div id="html_f7bdb527a724d097e44a2b0a4c5d5585" style="width: 100.0%; height: 100.0%;">Cap de Formentor</div>`)[0];
+            popup_d09aef787523f6026d6f06da84d1cf2a.setContent(html_f7bdb527a724d097e44a2b0a4c5d5585);
+        
+
+        marker_e92d5462e6d944335441fae0e63f3ff3.bindPopup(popup_d09aef787523f6026d6f06da84d1cf2a)
+        ;
+
+        
+    
+    
+            var marker_b58310e848b683a9a231785ef4fcb2a7 = L.marker(
+                [39.9194, 3.0489],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_7b86cb14a84b65110915b9632b8f9f7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b58310e848b683a9a231785ef4fcb2a7.setIcon(icon_7b86cb14a84b65110915b9632b8f9f7a);
+        
+    
+        var popup_7b552bd936740408acf819dc4536d77c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4062f4e0c7d3b8f3cba9bcbd55684131 = $(`<div id="html_4062f4e0c7d3b8f3cba9bcbd55684131" style="width: 100.0%; height: 100.0%;">Cala Sant Vicenç</div>`)[0];
+            popup_7b552bd936740408acf819dc4536d77c.setContent(html_4062f4e0c7d3b8f3cba9bcbd55684131);
+        
+
+        marker_b58310e848b683a9a231785ef4fcb2a7.bindPopup(popup_7b552bd936740408acf819dc4536d77c)
+        ;
+
+        
+    
+    
+            var marker_729fc63454aa859e35bfdbbd27889275 = L.marker(
+                [39.9508, 3.1763],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_8b3c939192734101ca2277e7edee50ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_729fc63454aa859e35bfdbbd27889275.setIcon(icon_8b3c939192734101ca2277e7edee50ff);
+        
+    
+        var popup_082a7a834514945fdc36734bc4310bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a10c5b8f8ef8bfcce336a9381d8db109 = $(`<div id="html_a10c5b8f8ef8bfcce336a9381d8db109" style="width: 100.0%; height: 100.0%;">Cala Murta</div>`)[0];
+            popup_082a7a834514945fdc36734bc4310bd2.setContent(html_a10c5b8f8ef8bfcce336a9381d8db109);
+        
+
+        marker_729fc63454aa859e35bfdbbd27889275.bindPopup(popup_082a7a834514945fdc36734bc4310bd2)
+        ;
+
+        
+    
+    
+            var marker_7761241bb6657a52b8f579b793f2d853 = L.marker(
+                [39.8531, 3.1214],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_189fa99dc3a072938ebd74b731a1974e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7761241bb6657a52b8f579b793f2d853.setIcon(icon_189fa99dc3a072938ebd74b731a1974e);
+        
+    
+        var popup_747fe3ad5609882ec72c2e4f145a0dd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_175a989eb2b5d8e49e0b51bad02c25c9 = $(`<div id="html_175a989eb2b5d8e49e0b51bad02c25c9" style="width: 100.0%; height: 100.0%;">Stari grad Alcúdia</div>`)[0];
+            popup_747fe3ad5609882ec72c2e4f145a0dd2.setContent(html_175a989eb2b5d8e49e0b51bad02c25c9);
+        
+
+        marker_7761241bb6657a52b8f579b793f2d853.bindPopup(popup_747fe3ad5609882ec72c2e4f145a0dd2)
+        ;
+
+        
+    
+    
+            var marker_bb1244d1c533f7f5fd5900037cfafcb4 = L.marker(
+                [39.7938, 3.1172],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_b41257b20d522ba0b1d38b9cb1d45a66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb1244d1c533f7f5fd5900037cfafcb4.setIcon(icon_b41257b20d522ba0b1d38b9cb1d45a66);
+        
+    
+        var popup_b6bc9a295018b1a3cc06d9bfc0f4b1b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ca647dc45dd6fd1df3c761fd7272427 = $(`<div id="html_9ca647dc45dd6fd1df3c761fd7272427" style="width: 100.0%; height: 100.0%;">Albufera Natural Park</div>`)[0];
+            popup_b6bc9a295018b1a3cc06d9bfc0f4b1b1.setContent(html_9ca647dc45dd6fd1df3c761fd7272427);
+        
+
+        marker_bb1244d1c533f7f5fd5900037cfafcb4.bindPopup(popup_b6bc9a295018b1a3cc06d9bfc0f4b1b1)
+        ;
+
+        
+    
+    
+            var marker_94a61ec357356ae93e4732b9ff40a42e = L.marker(
+                [39.7931, 3.1236],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_1de6223cc679f79d30934615240b343e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_94a61ec357356ae93e4732b9ff40a42e.setIcon(icon_1de6223cc679f79d30934615240b343e);
+        
+    
+        var popup_709f94e9ec1f0cb4432d5660acee924d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f749307634303178a59df8a96536bc16 = $(`<div id="html_f749307634303178a59df8a96536bc16" style="width: 100.0%; height: 100.0%;">Playa de Muro</div>`)[0];
+            popup_709f94e9ec1f0cb4432d5660acee924d.setContent(html_f749307634303178a59df8a96536bc16);
+        
+
+        marker_94a61ec357356ae93e4732b9ff40a42e.bindPopup(popup_709f94e9ec1f0cb4432d5660acee924d)
+        ;
+
+        
+    
+    
+            var marker_f2807ec38a17bad2cfbc6f826b5b4c95 = L.marker(
+                [39.3515, 3.1265],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_968c94269ca6ef76ca8d650e65bce5f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2807ec38a17bad2cfbc6f826b5b4c95.setIcon(icon_968c94269ca6ef76ca8d650e65bce5f0);
+        
+    
+        var popup_66958406801630a2a21c0280075072cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df6142cd6f8e332a3270657ed705391e = $(`<div id="html_df6142cd6f8e332a3270657ed705391e" style="width: 100.0%; height: 100.0%;">Stari grad Santanyí</div>`)[0];
+            popup_66958406801630a2a21c0280075072cd.setContent(html_df6142cd6f8e332a3270657ed705391e);
+        
+
+        marker_f2807ec38a17bad2cfbc6f826b5b4c95.bindPopup(popup_66958406801630a2a21c0280075072cd)
+        ;
+
+        
+    
+    
+            var marker_2e93caf72cd7d9e1bbf162b31d308da8 = L.marker(
+                [39.3083, 3.1375],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_48a0c04a33a4f61905652f3b882aa3aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e93caf72cd7d9e1bbf162b31d308da8.setIcon(icon_48a0c04a33a4f61905652f3b882aa3aa);
+        
+    
+        var popup_72b56887b6b68106919745e5f32515a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2145542824189b916192d290ef95a8f1 = $(`<div id="html_2145542824189b916192d290ef95a8f1" style="width: 100.0%; height: 100.0%;">Caló des Moro</div>`)[0];
+            popup_72b56887b6b68106919745e5f32515a9.setContent(html_2145542824189b916192d290ef95a8f1);
+        
+
+        marker_2e93caf72cd7d9e1bbf162b31d308da8.bindPopup(popup_72b56887b6b68106919745e5f32515a9)
+        ;
+
+        
+    
+    
+            var marker_8d9d4ccf4ba1b0da6b11fded293da31d = L.marker(
+                [39.3083, 3.1294],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_7ce5e4f3d11fce10d2afacd7a28f4310 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8d9d4ccf4ba1b0da6b11fded293da31d.setIcon(icon_7ce5e4f3d11fce10d2afacd7a28f4310);
+        
+    
+        var popup_a2c39c58297f40c101f75640b8d26f35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f94ce11b9b4b4871785a9654fee9ba1c = $(`<div id="html_f94ce11b9b4b4871785a9654fee9ba1c" style="width: 100.0%; height: 100.0%;">Cala Llombards</div>`)[0];
+            popup_a2c39c58297f40c101f75640b8d26f35.setContent(html_f94ce11b9b4b4871785a9654fee9ba1c);
+        
+
+        marker_8d9d4ccf4ba1b0da6b11fded293da31d.bindPopup(popup_a2c39c58297f40c101f75640b8d26f35)
+        ;
+
+        
+    
+    
+            var marker_19c0a04067cebab3940bfd1059cdd11e = L.marker(
+                [39.345, 3.1808],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_de433d6a0d1e866c52f5f8a28ac77366 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_19c0a04067cebab3940bfd1059cdd11e.setIcon(icon_de433d6a0d1e866c52f5f8a28ac77366);
+        
+    
+        var popup_2f2befcce5a0990e9ac95c863664c0cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89796abe233e975833ebf974fa2a8165 = $(`<div id="html_89796abe233e975833ebf974fa2a8165" style="width: 100.0%; height: 100.0%;">Cala Mondragó</div>`)[0];
+            popup_2f2befcce5a0990e9ac95c863664c0cd.setContent(html_89796abe233e975833ebf974fa2a8165);
+        
+
+        marker_19c0a04067cebab3940bfd1059cdd11e.bindPopup(popup_2f2befcce5a0990e9ac95c863664c0cd)
+        ;
+
+        
+    
+    
+            var marker_e35285d51f4410365e490bc5436dd35b = L.marker(
+                [39.3984, 3.2653],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_2f1fdd34a7de5cff25891181b3320b01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e35285d51f4410365e490bc5436dd35b.setIcon(icon_2f1fdd34a7de5cff25891181b3320b01);
+        
+    
+        var popup_8be65af729231963e65d1e6fce82fc59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55879cc44446119cec10240c3612f652 = $(`<div id="html_55879cc44446119cec10240c3612f652" style="width: 100.0%; height: 100.0%;">Cala Sa Nau</div>`)[0];
+            popup_8be65af729231963e65d1e6fce82fc59.setContent(html_55879cc44446119cec10240c3612f652);
+        
+
+        marker_e35285d51f4410365e490bc5436dd35b.bindPopup(popup_8be65af729231963e65d1e6fce82fc59)
+        ;
+
+        
+    
+    
+            var marker_48175cd13ffcce96e58dd247adddc9c1 = L.marker(
+                [39.7226, 3.4612],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_fc59debb0131efc8e268d645c9136fa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_48175cd13ffcce96e58dd247adddc9c1.setIcon(icon_fc59debb0131efc8e268d645c9136fa9);
+        
+    
+        var popup_24a5590c582fbf0aadb0690a12b49668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81aacd4f7081f2f9bedbe8f7e7cd394e = $(`<div id="html_81aacd4f7081f2f9bedbe8f7e7cd394e" style="width: 100.0%; height: 100.0%;">Cala Agulla</div>`)[0];
+            popup_24a5590c582fbf0aadb0690a12b49668.setContent(html_81aacd4f7081f2f9bedbe8f7e7cd394e);
+        
+
+        marker_48175cd13ffcce96e58dd247adddc9c1.bindPopup(popup_24a5590c582fbf0aadb0690a12b49668)
+        ;
+
+        
+    
+    
+            var marker_9c4e87d443c2d4b9245221dea960f74f = L.marker(
+                [39.7489, 3.4486],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_c56d446131f801ce904e6d2fb6d7463f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9c4e87d443c2d4b9245221dea960f74f.setIcon(icon_c56d446131f801ce904e6d2fb6d7463f);
+        
+    
+        var popup_36be4b80e22dd6cb6f3dbf69dea73abd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b130535b8e6850cd38a6f25818b397b = $(`<div id="html_9b130535b8e6850cd38a6f25818b397b" style="width: 100.0%; height: 100.0%;">Cala Mesquida</div>`)[0];
+            popup_36be4b80e22dd6cb6f3dbf69dea73abd.setContent(html_9b130535b8e6850cd38a6f25818b397b);
+        
+
+        marker_9c4e87d443c2d4b9245221dea960f74f.bindPopup(popup_36be4b80e22dd6cb6f3dbf69dea73abd)
+        ;
+
+        
+    
+    
+            var marker_fa39424c2f41672a01b84cf50d682382 = L.marker(
+                [39.8542, 2.7911],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_9c47ad7a4199091e6835eb4efce3893f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa39424c2f41672a01b84cf50d682382.setIcon(icon_9c47ad7a4199091e6835eb4efce3893f);
+        
+    
+        var popup_12e1524c611ba5f1bb5bdcc87e2a4766 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_098d6b4dea19aefaefd8fb84d443ea3f = $(`<div id="html_098d6b4dea19aefaefd8fb84d443ea3f" style="width: 100.0%; height: 100.0%;">Sa Calobra & Torrent de Pareis</div>`)[0];
+            popup_12e1524c611ba5f1bb5bdcc87e2a4766.setContent(html_098d6b4dea19aefaefd8fb84d443ea3f);
+        
+
+        marker_fa39424c2f41672a01b84cf50d682382.bindPopup(popup_12e1524c611ba5f1bb5bdcc87e2a4766)
+        ;
+
+        
+    
+    
+            var marker_9f4ed921064d340dc877cbc335118ef8 = L.marker(
+                [39.8331, 2.8925],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_6bfa867fd0a539b0708a2917d2b0e006 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f4ed921064d340dc877cbc335118ef8.setIcon(icon_6bfa867fd0a539b0708a2917d2b0e006);
+        
+    
+        var popup_c6b6ad31d6d4d111a2d7c16ab724da31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ce051e30a1aaa4a1d9e384c702b7e3 = $(`<div id="html_29ce051e30a1aaa4a1d9e384c702b7e3" style="width: 100.0%; height: 100.0%;">Monestir de Lluc</div>`)[0];
+            popup_c6b6ad31d6d4d111a2d7c16ab724da31.setContent(html_29ce051e30a1aaa4a1d9e384c702b7e3);
+        
+
+        marker_9f4ed921064d340dc877cbc335118ef8.bindPopup(popup_c6b6ad31d6d4d111a2d7c16ab724da31)
+        ;
+
+        
+    
+    
+            var marker_9454dd55bfc673d377fe6536c693a32d = L.marker(
+                [39.8406, 2.7639],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_b29fd219c388c774f15eec3be94a24b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9454dd55bfc673d377fe6536c693a32d.setIcon(icon_b29fd219c388c774f15eec3be94a24b8);
+        
+    
+        var popup_57d73d25417e515a09d1756c971532f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52ca713a36fc3f721f31b7ac246d8aee = $(`<div id="html_52ca713a36fc3f721f31b7ac246d8aee" style="width: 100.0%; height: 100.0%;">Cala Tuent</div>`)[0];
+            popup_57d73d25417e515a09d1756c971532f5.setContent(html_52ca713a36fc3f721f31b7ac246d8aee);
+        
+
+        marker_9454dd55bfc673d377fe6536c693a32d.bindPopup(popup_57d73d25417e515a09d1756c971532f5)
+        ;
+
+        
+    
+    
+            var marker_506f3e5813012766ee62c0631691a01d = L.marker(
+                [39.5373, 3.3264],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_11558919f5e7fda200ff7cac02f720f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_506f3e5813012766ee62c0631691a01d.setIcon(icon_11558919f5e7fda200ff7cac02f720f6);
+        
+    
+        var popup_98dc2cec6f0bd0e8a9bb30890c65a7e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e27e993004b6848b5540305099c10ff = $(`<div id="html_0e27e993004b6848b5540305099c10ff" style="width: 100.0%; height: 100.0%;">Cuevas del Drach</div>`)[0];
+            popup_98dc2cec6f0bd0e8a9bb30890c65a7e3.setContent(html_0e27e993004b6848b5540305099c10ff);
+        
+
+        marker_506f3e5813012766ee62c0631691a01d.bindPopup(popup_98dc2cec6f0bd0e8a9bb30890c65a7e3)
+        ;
+
+        
+    
+    
+            var marker_c7b49c78fe0d989fdeb0d1fc4572ce6a = L.marker(
+                [39.5083, 3.2856],
+                {}
+            ).addTo(map_dac599d655deefd2d470ab696650844e);
+        
+    
+            var icon_897ca6869a859f2672616e130d10daa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c7b49c78fe0d989fdeb0d1fc4572ce6a.setIcon(icon_897ca6869a859f2672616e130d10daa4);
+        
+    
+        var popup_a9b21701aa860517aeab039be2827418 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1aa62990b0094851ca9ce32b3542871a = $(`<div id="html_1aa62990b0094851ca9ce32b3542871a" style="width: 100.0%; height: 100.0%;">Cala Varques</div>`)[0];
+            popup_a9b21701aa860517aeab039be2827418.setContent(html_1aa62990b0094851ca9ce32b3542871a);
+        
+
+        marker_c7b49c78fe0d989fdeb0d1fc4572ce6a.bindPopup(popup_a9b21701aa860517aeab039be2827418)
+        ;
+
+        
+    
+</script>
+</html>
